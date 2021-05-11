@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/eurasia', function () {
+    return view('eurasia');
+});
+
+Route::get('/america', function () {
+    return view('america');
+});
+
+Route::get('/africa', function () {
+    return view('africa');
+});
+
+Route::get('/oceania', function () {
+    return view('oceania');
+});
+
+Route::get('/antartide', function () {
+    return view('antartide');
 });
